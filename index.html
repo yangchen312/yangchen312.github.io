@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to Yang Chen's Homepage!</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+hr {border: 1px solid #ddd;}
+a:link {text-decoration: none;}
+a:hover {color: blue;}
+a.active {text-decoration: underline;}
+a.visited {color: purple;}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+<!-- Siderbar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:250px;padding-left:15px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="images/yangchen.jpg" style="width:85%;" class="w3-round"><br><br>
+    <h3><b>Yang Chen</b></h3>
+    <p class="w3-text-grey">
+      <i class="fa fa-envelope w3-hover-opacity"></i>
+      <a href="mailto:yangchen312@gmail.com" target="_blank">yangchen312@gmail.com</a> <br><br>
+      <i class="fa fa-map-marker w3-hover-opacity"></i>
+      <a href="https://www.google.com.sg/maps/place/Singapore" target="_blank">Singapore</a>
+    </p>
+  </div>
+  <div class="w3-panel w3-large w3-text-grey">
+    <i class="fa fa-wechat w3-hover-opacity" title="Find me by 'vickychen312'"></i>
+    <a href="https://github.com/yangchen312" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/yang-chen-a76416a8/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</nav>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px;padding-left:20px;">
+  <!-- Interests -->
+  <h4>Interests</h4>
+  <div class="w3-container w3-padding" style="margin-bottom:10px">
+    <span class="w3-margin-right">Data Science, Machine Learning, User Modeling, Artificial Intelligence in Education</span>
+  </div>
+  <hr size="30">
+  <!-- Skills -->
+  <h4>Skills</h4>
+  <div class="w3-container w3-padding" style="margin-bottom:10px">
+    <span class="w3-margin-right">Python, R, Matlab, SPSS, SQL, MongoDB, PHP, Clips, Data Mining, Machine Learning, Statistical Analysis</span>
+  </div>
+  <hr>
+  <!-- Education -->
+  <h4>Education</h4>
+  <div class="w3-container w3-padding" style="margin-bottom:10px">
+    <div class="w3-margin-right", style="margin-bottom:10px">
+      Ph.D. in Computer Science (2015)<br>
+      <a href="https://www.lip6.fr" target="_blank">Laboratoire d'Informatique de Paris 6</a>,
+      <a href="http://www.upmc.fr/en/" target="_blank">Université Pierre et Marie Curie</a>, Paris, France<br>
+    </div>
+    <div class="w3-margin-right">
+      M.S. (2011) and B.S. (2009) in Instrumentation and Control Engineering<br>
+      <a href="http://en.xidian.edu.cn" target="_blank">Xidian University</a>, Xi'an, China
+    </div>
+  </div>
+  <hr>
+  <!-- Experiences -->
+  <h4>Experiences</h4>
+  <div class="w3-container w3-padding" style="margin-bottom:10px">
+    <div class="w3-margin-right", style="margin-bottom:10px">
+      <b>Web-based Educational Platforms</b>
+      <ul>
+        <li><a href="http://slp.bnu.edu.cn" target="_blank">Smart Learning Partner</a></li>
+          It's a learning and assessment platform being developed by <a href="http://aic-fe.bnu.edu.cn/en/" target="_blank">Advanced Innovation Center for Future Education</a>, Beijing Normal University, Beijing, China.
+          I was a research fellow there and co-designed this platform.
+        <li><a href="http://www.52fdw.com" target="_blank">FUDAOWANG</a></li>
+          It's an intelligent tutoring system for helping secondary students to solve math problems, which was developed by a startup company "Bochuang".
+          I was a graduate student at its collaboration lab at Xidian University, and I participated to develop and maintain the NLP module of this system.
+      </ul>
+    </div>
+    <div class="w3-margin-right", style="margin-bottom:10px">
+      <p><b>Educational Data Mining</b></p>
+        During my Ph.D. study, I proposed a data mining method to extract prerequisite relationships of knowledge components from learner performance data.
+        And I also implemented some statistical models to discover structures within data.
+    </div>
+    <div class="w3-margin-right", style="margin-bottom:10px">
+      <p><b>User Modeling and Adaptation</b></p>
+        In my Ph.D. thesis, I extended a Bayesian Network learner model to improve model accuracy.
+        Besides, I studied or implemented some state-of-the-art probabilistic learner models, e.g. BKT, PFA,
+        and assessment and learning adaptation strategies.
+    </div>
+  </div>
+  <hr>
+
+  <!-- Publications -->
+  <h4>Publications</h4>
+  <ul class="w3-container w3-padding" style="margin-bottom:10px">
+    <li>Chen, Y., Wuillemin, P.-H., Labat, J.-M.: Discovering Prerequisite Structure of Skills through Probabilistic Association Rules Mining. In: Proceedings of <a href="http://www.educationaldatamining.org/EDM2015/" target="_blank">the 8th International Conference on Educational Data Mining</a>, Madrid, Spain, 117-124, 2015</li>
+    [<a href="https://github.com/yangchen312/prerequisites" target="_blank">code</a>][<a href="http://www.educationaldatamining.org/EDM2015/uploads/papers/paper_42.pdf" target="_blank">pdf</a>]
+    <li>Chen, Y., Wuillemin, P.-H., Labat, J.-M.: Bayesian Student Modeling Improved by Diagnostic Items. In: Proceedings of <a href="http://its2014.its-conferences.com" target="_blank">the 12th International Conference on Intelligent Tutoring Systems</a>, Honolulu, USA, 144-149, 2014</li>
+    <li>Chen, Y.: Adaptive Non-graded Assessment Based on Knowledge Space Theory. In: Proceedings of the IEEE 13th International Conference on Advanced Learning Technologies, Beijing, China, 63- 64, 2013</li>
+  </ul>
+  <hr>
+
+  <!-- Talks -->
+  <h4>Talks</h4>
+  <ul class="w3-container w3-padding" style="margin-bottom:20px">
+    <li>Data-driven adaptive learning in academia and industry. <a href="https://www.liulishuo.com" target="_blank">Shanghai Liulishuo Information Technology Ltd</a>, Shanghai, China, 2015</li>
+    <li>Discovering Prerequisite Structure of Skills through Probabilistic Association Rules Mining. <a href="http://pfia2015.inria.fr/journees-bilaterales/journee-eiah-ia" target="_blank">Ateliers de la Conférence PFIA, La Journée EIAH &amp; IA</a>, Rennes, France, 2015</li>
+    <li>A Bayesian Diagnostic Approach for Student Modeling. <a href="https://apps.univ-lr.fr/cgi-bin/WebObjects/Colloque.woa/wa/colloque?code=1041" target="_blank">Le 5ème Rencontres Jeunes Chercheurs en EIAH</a>, La Rochelle, France, 2014</li>
+  </ul>
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
