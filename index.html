@@ -10,14 +10,16 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 hr {border: 1px solid #ddd;}
 a:link {text-decoration: none;}
-a:hover {color: blue;}
+a:hover {color: deepskyblue;}
 a.active {text-decoration: underline;}
 a.visited {color: purple;}
 </style>
 </head>
+
 <body class="w3-light-grey w3-content" style="max-width:1600px">
+
 <!-- Siderbar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:250px;padding-left:15px;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:250px;padding-left:10px;" id="mySidebar"><br>
   <div class="w3-container">
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
       <i class="fa fa-remove"></i>
@@ -25,9 +27,8 @@ a.visited {color: purple;}
     <img src="images/yangchen.jpg" style="width:85%;" class="w3-round"><br><br>
     <h3><b>Yang Chen</b></h3>
     <p class="w3-text-grey">
-      <i class="fa fa-envelope w3-hover-opacity"></i>
-      <a href="mailto:yangchen312@gmail.com" target="_blank">yangchen312@gmail.com</a> <br><br>
-      <i class="fa fa-map-marker w3-hover-opacity"></i>
+      <i class="fa fa-envelope w3-hover-opacity w3-margin-right"></i><a href="mailto:yangchen312@gmail.com" target="_blank">yangchen312@gmail.com</a> <br><br>
+      <i class="fa fa-map-marker w3-hover-opacity w3-margin-right"></i>
       <a href="https://www.google.com.sg/maps/place/Singapore" target="_blank">Singapore</a>
     </p>
   </div>
@@ -41,68 +42,73 @@ a.visited {color: purple;}
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 
-
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:250px;padding-left:20px;">
+
   <!-- Recent blog posts -->
-  <h4>My Blog</h4>
-  <h5>Recent Posts</h5>
-  <div class="w3-container w3-padding" style="margin-bottom:10px">
-    <a href="https://github.com/yangchen312/yangchen312.github.io/blob/master/blog/b20171003.md" target="_blank">Installing Hadoop 2.8.1 on Mac OS X 10.12.6 via Homebrew</a>
-  </div>
-  <hr>
-  <!-- Skills -->
-  <h4>Skills</h4>
-  <div class="w3-container w3-padding" style="margin-bottom:10px">
-    <span class="w3-margin-right">Python, R, Matlab, SPSS, SQL, MongoDB, PHP, Clips, Data Mining, Machine Learning, Statistical Analysis</span>
-  </div>
-  <hr>
-  <!-- Interests -->
-  <h4>Interests</h4>
-  <div class="w3-container w3-padding" style="margin-bottom:10px">
-    <span class="w3-margin-right">Data Science, Machine Learning, User Modeling, Artificial Intelligence in Education</span>
-  </div>
-  <hr>
-  <!-- Education -->
-  <h4>Education</h4>
-  <div class="w3-container w3-padding" style="margin-bottom:10px">
-    <div class="w3-margin-right", style="margin-bottom:10px">
-      Ph.D. in Computer Science (2015)<br>
-      <a href="https://www.lip6.fr" target="_blank">Laboratoire d'Informatique de Paris 6</a>,
-      <a href="http://www.upmc.fr/en/" target="_blank">Université Pierre et Marie Curie</a>, Paris, France<br>
-    </div>
-    <div class="w3-margin-right">
-      M.S. (2011) and B.S. (2009) in Instrumentation and Control Engineering<br>
-      <a href="http://en.xidian.edu.cn" target="_blank">Xidian University</a>, Xi'an, China
+  <div class="w3-container w3-card-2 w3-margin-bottom w3-margin-top w3-margin-right">
+    <h3 style="text-align:center;font-family:Comic Sans MS;">My Recent Posts</h3>
+    <div class="w3-container w3-card w3-margin-bottom w3-grey w3-padding" style="height:200px;margin-left:10%;margin-right:10%;border-radius:2%;">
+      <i class="fa fa-asterisk w3-margin-right w3-text-blue"></i><a href="https://github.com/yangchen312/yangchen312.github.io/blob/master/blog/b20171003.md" target="_blank">Installing Hadoop on Mac OS X via Homebrew</a>
     </div>
   </div>
-  <hr>
-  <!-- Experiences -->
-  <h4>Experiences</h4>
-  <div class="w3-container w3-padding" style="margin-bottom:10px">
-    <div class="w3-margin-right", style="margin-bottom:10px">
-      <b>Web-based Educational Platforms</b>
-      <ul>
-        <li><a href="http://slp.bnu.edu.cn" target="_blank">Smart Learning Partner</a></li>
-          It's a learning and assessment platform being developed by <a href="http://aic-fe.bnu.edu.cn/en/" target="_blank">Advanced Innovation Center for Future Education</a>, Beijing Normal University, Beijing, China.
-          I was a research fellow there and co-designed this platform.
-        <li><a href="http://www.52fdw.com" target="_blank">FUDAOWANG</a></li>
-          It's an intelligent tutoring system for helping secondary students to solve math problems, which was developed by a startup company "Bochuang".
-          I was a graduate student at its collaboration lab at Xidian University, and I participated to develop and maintain the NLP module of this system.
-      </ul>
+
+  <!-- CV -->
+  <div class="w3-container w3-card-2 w3-margin-bottom w3-margin-top w3-margin-right">
+    <h3 style="text-align:center;font-family:Comic Sans MS;margin-bottom:30px;">My Resume</h3>
+
+    <!-- Skills -->
+    <h4>Skills</h4>
+    <div class="w3-container w3-padding" style="margin-bottom:10px;">
+      <span class="w3-margin-right">Python, R, Matlab, SPSS, SQL, MongoDB, PHP, Clips, Data Mining, Machine Learning, Statistical Analysis</span>
     </div>
-    <div class="w3-margin-right", style="margin-bottom:10px">
-      <p><b>Educational Data Mining</b></p>
-        During my Ph.D. study, I proposed a data mining method to extract prerequisite relationships of knowledge components from learner performance data.
-        And I also implemented some statistical models to discover structures within data.
+    <hr>
+    <!-- Interests -->
+    <h4>Interests</h4>
+    <div class="w3-container w3-padding" style="margin-bottom:10px">
+      <span class="w3-margin-right">Data Science, Machine Learning, User Modeling, Artificial Intelligence in Education</span>
     </div>
-    <div class="w3-margin-right", style="margin-bottom:10px">
-      <p><b>User Modeling and Adaptation</b></p>
-        In my Ph.D. thesis, I extended a Bayesian Network learner model to improve model accuracy.
-        Besides, I studied or implemented some state-of-the-art probabilistic learner models, e.g. BKT, PFA,
-        and assessment and learning adaptation strategies.
+    <hr>
+    <!-- Education -->
+    <h4>Education</h4>
+    <div class="w3-container w3-padding" style="margin-bottom:10px">
+      <div class="w3-margin-right", style="margin-bottom:10px">
+        Ph.D. in Computer Science (2015)<br>
+        <a href="https://www.lip6.fr" target="_blank">Laboratoire d'Informatique de Paris 6</a>,
+        <a href="http://www.upmc.fr/en/" target="_blank">Université Pierre et Marie Curie</a>, Paris, France<br>
+      </div>
+      <div class="w3-margin-right">
+        M.S. (2011) and B.S. (2009) in Instrumentation and Control Engineering<br>
+        <a href="http://en.xidian.edu.cn" target="_blank">Xidian University</a>, Xi'an, China
+      </div>
     </div>
-  </div>
+    <hr>
+    <!-- Experiences -->
+    <h4>Experiences</h4>
+    <div class="w3-container w3-padding" style="margin-bottom:10px">
+      <div class="w3-margin-right", style="margin-bottom:10px">
+        <b>Web-based Educational Platforms</b>
+        <ul>
+          <li><a href="http://slp.bnu.edu.cn" target="_blank">Smart Learning Partner</a></li>
+            It's a learning and assessment platform being developed by <a href="http://aic-fe.bnu.edu.cn/en/" target="_blank">Advanced Innovation Center for Future Education</a>, Beijing Normal University, Beijing, China.
+            I was a research fellow there and co-designed this platform.
+          <li><a href="http://www.52fdw.com" target="_blank">FUDAOWANG</a></li>
+            It's an intelligent tutoring system for helping secondary students to solve math problems, which was developed by a startup company "Bochuang".
+            I was a graduate student at its collaboration lab at Xidian University, and I participated to develop and maintain the NLP module of this system.
+        </ul>
+      </div>
+      <div class="w3-margin-right", style="margin-bottom:10px">
+        <p><b>Educational Data Mining</b></p>
+          During my Ph.D. study, I proposed a data mining method to extract prerequisite relationships of knowledge components from learner performance data.
+          And I also implemented some statistical models to discover structures within data.
+      </div>
+      <div class="w3-margin-right", style="margin-bottom:10px">
+        <p><b>User Modeling and Adaptation</b></p>
+          In my Ph.D. thesis, I extended a Bayesian Network learner model to improve model accuracy.
+          Besides, I studied or implemented some state-of-the-art probabilistic learner models, e.g. BKT, PFA,
+          and assessment and learning adaptation strategies.
+      </div>
+    </div>
   <hr>
 
   <!-- Publications -->
@@ -116,13 +122,17 @@ a.visited {color: purple;}
   <hr>
 
   <!-- Talks -->
-  <h4>Talks</h4>
-  <ul class="w3-container w3-padding" style="margin-bottom:20px">
-    <li>Data-driven adaptive learning in academia and industry. <a href="https://www.liulishuo.com" target="_blank">Shanghai Liulishuo Information Technology Ltd</a>, Shanghai, China, 2015</li>
-    <li>Discovering Prerequisite Structure of Skills through Probabilistic Association Rules Mining. <a href="http://pfia2015.inria.fr/journees-bilaterales/journee-eiah-ia" target="_blank">Ateliers de la Conférence PFIA, La Journée EIAH &amp; IA</a>, Rennes, France, 2015</li>
-    <li>A Bayesian Diagnostic Approach for Student Modeling. <a href="https://apps.univ-lr.fr/cgi-bin/WebObjects/Colloque.woa/wa/colloque?code=1041" target="_blank">Le 5ème Rencontres Jeunes Chercheurs en EIAH</a>, La Rochelle, France, 2014</li>
-  </ul>
+    <h4>Talks</h4>
+    <ul class="w3-container w3-padding" style="margin-bottom:20px">
+      <li>Data-driven adaptive learning in academia and industry. <a href="https://www.liulishuo.com" target="_blank">Shanghai Liulishuo Information Technology Ltd</a>, Shanghai, China, 2015</li>
+      <li>Discovering Prerequisite Structure of Skills through Probabilistic Association Rules Mining. <a href="http://pfia2015.inria.fr/journees-bilaterales/journee-eiah-ia" target="_blank">Ateliers de la Conférence PFIA, La Journée EIAH &amp; IA</a>, Rennes, France, 2015</li>
+      <li>A Bayesian Diagnostic Approach for Student Modeling. <a href="https://apps.univ-lr.fr/cgi-bin/WebObjects/Colloque.woa/wa/colloque?code=1041" target="_blank">Le 5ème Rencontres Jeunes Chercheurs en EIAH</a>, La Rochelle, France, 2014</li>
+    </ul>
+  </div>
+  <!-- End of CV -->
+
 </div>
+<!-- End of page content-->
 
 <script>
 // Script to open and close sidebar
